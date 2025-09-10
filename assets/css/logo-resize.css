@@ -1,0 +1,21 @@
+.navbar-brand img {
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.footer-logo img {
+    max-width: 120px; /* Slightly smaller in footer */
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand img {
+        max-width: 120px; /* Smaller on mobile */
+    }
+    
+    .footer-logo img {
+        max-width: 100px; /* Smaller on mobile */
+    }
+}

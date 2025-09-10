@@ -1,0 +1,140 @@
+/* Dynamic Content Styling */
+
+/* Category Filter Buttons */
+.category-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.category-filter button {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    color: #333;
+    padding: 8px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.category-filter button:hover {
+    background-color: #e0e0e0;
+}
+
+.category-filter button.active {
+    background-color: #5fcb39;
+    color: white;
+    border-color: #5fcb39;
+}
+
+/* Product Count Badge */
+.category-count {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: inherit;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+/* Share Button */
+.share-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #5fcb39;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.share-button i {
+    margin-right: 8px;
+}
+
+.share-button:hover {
+    background-color: #4ba82e;
+}
+
+/* Toast Notification */
+.toast-notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.toast-notification.show {
+    opacity: 1;
+}
+
+/* View All Products Button */
+.view-all-products {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.view-all-products .btn {
+    padding: 12px 30px;
+    background-color: #5fcb39;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.view-all-products .btn:hover {
+    background-color: #4ba82e;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Details */
+.product-meta {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.product-meta p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.product-meta i {
+    margin-right: 10px;
+    color: #5fcb39;
+    width: 20px;
+}
+
+/* No Products Found */
+.no-products {
+    text-align: center;
+    padding: 50px 0;
+    color: #666;
+}
+
+.no-products i {
+    font-size: 48px;
+    color: #ddd;
+    margin-bottom: 20px;
+    display: block;
+}
