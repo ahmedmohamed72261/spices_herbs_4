@@ -499,6 +499,21 @@ p:last-child {
 	cursor: pointer;
 }
 
+.navbar-brand img{
+	width: 150px !important;
+	height: 90px !important;
+}
+.green-responsive-nav .logo .white-logo {
+	display: block;
+	width: 150px !important;
+	height: 90px !important;
+}
+
+.green-responsive-nav .logo .black-logo {
+	display: none;
+	width: 150px !important;
+	height: 60px !important;
+}
 .go-top.active {
 	top: 95%;
 	-webkit-transform: translateY(-98%);
@@ -976,10 +991,7 @@ p:last-child {
 .navbar-area.is-sticky .navbar-nav .nav-item a {
 	color: #505050;
 }
-.navbar-brand img{
-	width: 150px !important;
-	height: 100px !important;
-}
+
 .navbar-area.is-sticky .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .navbar-nav .nav-item a.active {
 	color: #72a51c;
 }
@@ -1087,13 +1099,7 @@ p:last-child {
 		width: 50%;
 	}
 
-	.green-responsive-nav .logo .white-logo {
-		display: block;
-	}
 
-	.green-responsive-nav .logo .black-logo {
-		display: none;
-	}
 
 	.green-nav {
 		display: none;
@@ -1512,7 +1518,14 @@ p:last-child {
     will-change: transform;
 }
 
-
+.services-img{
+	height: 300px;
+	width: 400px;
+}
+.services-img img{
+	width: 100%;
+	height: 100%;
+}
 .services-icon {
     display: inline-block;
 	width: 55px;
@@ -4298,6 +4311,8 @@ blockquote::after, .blockquote::after {
 }
 
 .footer-logo {
+	width: 150px;
+	height: 100px;
 	display: inline-block;
 	margin-bottom: 25px;
 }
